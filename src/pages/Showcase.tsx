@@ -15,7 +15,6 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Product } from '../types';
-import titanClockImg from '../titan_wall_clock.png';
 
 interface ShowcaseProps {
   addToCart: (product: Product) => void;
@@ -27,7 +26,7 @@ const clockProduct: Product = {
   name: 'Aurelius Wall Clock',
   collection: 'Grand Atelier',
   price: 24500,
-  image: '/src/titan_wall_clock.png',
+  image: '/titan_wall_clock.png',
   description: 'An architectural centerpiece for modern estates. Gold sweeping hands dance in absolute synchronization against a textured backdrop, bathed in soft studio lighting.',
   features: ['Double-Domed Sapphire', 'Caliber Cal-T90 Continuous Sweep', '24k Gold Hands', 'Showcase Mode']
 };
@@ -241,7 +240,7 @@ export default function Showcase({ addToCart }: ShowcaseProps) {
           className="absolute inset-0 w-full h-full"
         >
           <img 
-            src={titanClockImg} 
+            src="/titan_wall_clock.png" 
             alt="Luxury Minimalist Room" 
             className="w-full h-full object-cover opacity-60 scale-105"
           />

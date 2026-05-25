@@ -133,7 +133,7 @@ export default function CinemaGallery({ addToCart }: CinemaGalleryProps) {
       name: vid.watchName,
       price: vid.price,
       collection: vid.category === 'Diving' ? 'Marine Professional' : 'Grand Atelier',
-      image: `/src/titan_wall_clock.png`, // Fallback visual
+      image: `/titan_wall_clock.png`, // Fallback visual
       description: vid.description,
       features: [vid.calibre, 'Virtual Atelier Edition']
     };

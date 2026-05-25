@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { MapPin, Sparkles, Send, ShieldCheck } from 'lucide-react';
-import boutiqueGeneva from '../boutique_geneva.png';
 
 interface Boutique {
   city: string;
@@ -18,7 +17,7 @@ const boutiques: Boutique[] = [
     city: 'Geneva',
     country: 'Switzerland',
     address: 'Rue du Rhône 45, 1204 Geneva',
-    image: boutiqueGeneva,
+    image: '/boutique_geneva.png',
     perks: ['Master Watchmaker Lounge', 'Vault Viewing Gallery', 'Bespoke Engraving Studio'],
     hours: 'Mon - Sat: 10:00 AM - 6:30 PM',
     vaultId: 'GEN-VAULT-45'

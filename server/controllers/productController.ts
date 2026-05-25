@@ -69,7 +69,7 @@ const MOCK_PRODUCTS = [
     name: 'Aurelius Wall Clock',
     collection: 'Grand Atelier',
     price: 24500,
-    image: '/src/titan_wall_clock.png',
+    image: '/titan_wall_clock.png',
     description: 'An architectural centerpiece for modern estates. Gold sweeping hands dance in absolute synchronization against a textured backdrop, bathed in soft studio lighting.',
     features: ['Double-Domed Sapphire', 'Caliber Cal-T90 Continuous Sweep', '24k Gold Hands', 'Showcase Mode']
   },
@@ -79,7 +79,7 @@ const MOCK_PRODUCTS = [
     name: 'Zenith Chrono Tourbillon',
     collection: 'Grand Atelier',
     price: 18500,
-    image: '/src/zenith_tourbillon.png',
+    image: '/zenith_tourbillon.png',
     description: 'An exquisite hand-assembled masterpiece featuring an exposed flying tourbillon and gold sweeping gears.',
     features: ['Flying Tourbillon', 'Manual Skeletonized Movement', '18k Rose Gold Case', 'Custom Engraving']
   },
@@ -89,7 +89,7 @@ const MOCK_PRODUCTS = [
     name: 'Vanguard Carbon Stealth',
     collection: 'Minimalist Elite',
     price: 9200,
-    image: '/src/vanguard_stealth.png',
+    image: '/vanguard_stealth.png',
     description: 'A futuristic tactical timepiece forged from compressed carbon-matte alloy with electric blue highlights.',
     features: ['Forged Carbon Case', 'Electric Blue Lume', 'Double-Domed Sapphire', '300m Depth Rated']
   }

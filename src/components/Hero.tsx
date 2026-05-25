@@ -10,7 +10,7 @@ const slides = [
     subtitle: "Carbon Obsidian",
     description: "Forged from compressed carbon-matte alloys and finished with glowing electric-blue hour pillars, the Obsidian represents the vanguard of tactical horology.",
     image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=90&w=2000",
-    watchImage: "/src/vanguard_stealth.png",
+    watchImage: "/vanguard_stealth.png",
     tag: "Carbon Innovation",
     price: "$9,200"
   },
@@ -20,7 +20,7 @@ const slides = [
     subtitle: "Chrono Tourbillon",
     description: "A tribute to the absolute pioneers of timekeeping. Witness the intricate mechanical heartbeat of a gold flying tourbillon, hand-polished to a flawless mirror finish.",
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=90&w=2000",
-    watchImage: "/src/zenith_tourbillon.png",
+    watchImage: "/zenith_tourbillon.png",
     tag: "Grand Masterpiece",
     price: "$18,500"
   },
@@ -30,7 +30,7 @@ const slides = [
     subtitle: "Atelier Centerpiece",
     description: "Our signature architectural centerpiece. Gold sweeping hands dance in absolute synchronization against a textured dial, bathed in warm studio lights.",
     image: "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=90&w=2000",
-    watchImage: "/src/titan_wall_clock.png",
+    watchImage: "/titan_wall_clock.png",
     tag: "Swiss Heritage",
     price: "$24,500"
   }
