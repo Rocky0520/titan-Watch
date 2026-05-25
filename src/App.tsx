@@ -13,7 +13,6 @@ import Showcase from './pages/Showcase';
 import CollectionsPage from './pages/CollectionsPage';
 import CraftsmanshipPage from './pages/CraftsmanshipPage';
 import BoutiquesPage from './pages/BoutiquesPage';
-import CinemaGallery from './pages/CinemaGallery';
 import StoryWidget from './components/StoryWidget';
 import MechanicalBackground from './components/MechanicalBackground';
 import CraftsmanshipSection from './components/CraftsmanshipSection';
@@ -245,7 +244,6 @@ export default function App() {
             <Route path="/collections" element={<CollectionsPage addToCart={addToCart} onViewDetails={setSelectedReviewProduct} />} />
             <Route path="/craftsmanship" element={<CraftsmanshipPage />} />
             <Route path="/boutiques" element={<BoutiquesPage />} />
-            <Route path="/cinema" element={<CinemaGallery addToCart={addToCart} />} />
             {/* Example Protected Route */}
             {/* <Route path="/account" element={<ProtectedRoute><AccountPage /></ProtectedRoute>} /> */}
           </Routes>

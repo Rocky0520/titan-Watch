@@ -47,7 +47,6 @@ export default function Navbar({ cartItemsCount, onCartToggle }: NavbarProps) {
     { name: 'Collections', href: '/collections' },
     { name: 'Virtual Atelier', href: '/showcase', isAtelier: true },
     { name: 'Craftsmanship', href: '/craftsmanship' },
-    { name: 'Atelier Cinema', href: '/cinema' },
     { name: 'Boutiques', href: '/boutiques' },
   ];
 
